@@ -1,0 +1,89 @@
+.alignTextTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alignTitle {
+    margin-bottom: 30px;
+}
+
+.box {
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 22px 0px #e3e6f9;
+    display: flex;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+.content {
+    width: 100%;
+}
+
+.dateInfo {
+    color: #9c9c9c;
+}
+
+.image {
+    background-color: #f5f8ff;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.status {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.statusInfo {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.statusTitle {
+    font-size: 12px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.title {
+    font-weight: 600;
+    color: #2d3037;
+    margin-bottom: 0px;
+}
+
+.userStatus {
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: #f5f8ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .alignTextTitle {
+        flex-direction: column;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .userStatus {
+        padding: 10px 10px;
+        gap: 10px;
+    }
+}
